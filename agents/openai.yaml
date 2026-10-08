@@ -1,0 +1,4 @@
+interface:
+  display_name: "小红书 AI 产品拆解"
+  short_description: "可配置账号信息的产品拆解工作流，生成图片、发布文案与 Tag"
+  default_prompt: "使用 $xiaohongshu-product-breakdown 为我指定的产品制作小红书图文，使用我提供的账号信息，并附发布文案与 Tag。"

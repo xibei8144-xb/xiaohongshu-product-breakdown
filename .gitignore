@@ -1,0 +1,14 @@
+node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+brand.json
+my-avatar.*
+demo-output*/
+output*/
+*.zip
+assets/example-media/*
+!assets/example-media/asset-sources.json

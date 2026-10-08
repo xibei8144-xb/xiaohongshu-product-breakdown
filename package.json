@@ -1,0 +1,21 @@
+{
+  "name": "xiaohongshu-product-breakdown",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Native PNG rendering helpers for a portable Xiaohongshu product breakdown skill",
+  "dependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xibei8144-xb/xiaohongshu-product-breakdown.git"
+  },
+  "scripts": {
+    "check": "node --check scripts/render.cjs",
+    "test": "python3 tests/smoke.py"
+  }
+}
