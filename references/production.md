@@ -30,7 +30,7 @@ python3 <skill-dir>/scripts/package.py \
 
 头像通过 `--brand` 中的 avatar 或 `--avatar` 提供；未提供时省略头像。账号名、栏目和标语的配置见 [安装与账号配置](setup.md)。不覆盖已有成稿，调整版本时使用新的输出目录。脚本不联网、不发起任务，也不发布内容。
 
-可使用 `assets/example-content.json` 测试渲染；先运行 `python3 scripts/fetch_example_assets.py` 下载对应官方素材。仓库只分发来源清单，不包含第三方图片。示例事实是历史资料，正式制作其他产品必须重新研究，不把示例文案复制成新产品内容。
+可使用 `assets/example-content.json` 测试渲染；先运行 `python3 scripts/fetch_example_assets.py` 下载对应官方素材。该脚本的第三方输入素材不随仓库分发；另有[扣子成品示例](../examples/coze/README.md)供观察完整输出，成图内含已注明来源的产品素材。示例事实是历史资料，正式制作其他产品必须重新研究，不把示例文案复制成新产品内容。
 
 历史脚本输出每款 `images/01.png...07.png`、布局报告、总览、发布文案和来源文件。打包器按 `pageCount`（缺省为 7）读取编号图片和布局报告，生成纯图片 ZIP、文案合集及 `delivery-manifest.json`。改变页数后同步设置该字段与实际输出，不能只修改文案。
 

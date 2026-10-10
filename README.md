@@ -12,7 +12,21 @@
 - 可配置自己的头像、账号名和栏目；未提供身份时省略署名。
 - 按信息调整篇幅，不硬凑七页；只改文案或回复评论时不重新制作整套图片。
 
-**不生成 HTML，不自动发布到小红书，不内置私人头像、登录凭证或付费 API。**
+**不生成 HTML，不自动发布到小红书，不包含登录凭证或付费 API。** 成品示例保留作者署名；制作自己的内容时使用自己的账号配置，不复用示例身份。
+
+## 先看成品：扣子 Coze
+
+下面是此前制作的一套 **7 页图文**，展示封面、信息分块、真实界面与任务说明如何组合。图片整理于 **2026-09-11**，用于展示输出效果，产品能力与界面以使用时的官方资料为准。
+
+| 封面 | 产品概述 | 工作流与真实界面 |
+| --- | --- | --- |
+| [![扣子示例：封面](examples/coze/images/01.png)](examples/coze/images/01.png) | [![扣子示例：产品概述](examples/coze/images/02.png)](examples/coze/images/02.png) | [![扣子示例：工作流与真实界面](examples/coze/images/03.png)](examples/coze/images/03.png) |
+
+**[查看完整 7 页与示例说明](examples/coze/README.md)** · [配套文案与 Tag](examples/coze/caption.md) · [素材来源](examples/coze/sources.md)
+
+这套示例展示一种已有排版，页数、配色、字号和内容结构可按主题调整；账号头像和名称也由使用者自行配置。
+
+⭐ 如果这套 Skill 对你有帮助，欢迎点一下仓库右上角的 **Star**，方便下次找到，也支持后续继续完善示例和流程。
 
 ## 安装
 
@@ -83,6 +97,7 @@ references/                 研究、文案、排版与配置规则
 assets/brand.example.json   可选账号配置示例
 assets/example-content.json 历史内容结构示例
 assets/example-media/       第三方素材来源清单；图片不随仓库分发
+examples/coze/             扣子历史成品：7 张原图、总览、文案与来源
 scripts/render.cjs          原生 PNG 排版参考
 scripts/package.py         输出校验和图片打包
 scripts/fetch_example_assets.py  按需获取示例素材

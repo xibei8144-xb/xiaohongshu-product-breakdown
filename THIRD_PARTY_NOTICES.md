@@ -1,8 +1,10 @@
 # 第三方素材说明
 
-本仓库不打包第三方产品图片或字体。`assets/example-media/asset-sources.json` 仅记录历史示例的官方素材地址，`scripts/fetch_example_assets.py` 可按需下载到本地。
+本仓库不打包独立的第三方产品素材或字体。`assets/example-media/asset-sources.json` 记录渲染脚本历史示例的官方素材地址，`scripts/fetch_example_assets.py` 可按需下载到本地。`examples/coze/` 另行收录作者提供的历史成品，图片中包含产品 Logo、官方界面和作者署名，用于展示 Skill 输出效果。
 
 - ElevenLabs 名称、Logo 和官方界面属于相应权利人；产品来源：https://elevenlabs.io/ 。
+- 扣子 / Coze 名称、Logo 和官方界面属于相应权利人；成品中的素材出处见 [扣子示例来源](examples/coze/sources.md)。
+- 扣子成品中的 tomatoAI 名称与头像用于作者署名，不是供其他账号复用的品牌素材，也不作为 Skill 的默认身份。
 - 这些素材不适用本仓库的 MIT 许可证。公开可访问不等于可任意再分发；使用者应根据具体使用方式确认适用权限。
 - 示例内容仅展示输入结构，不构成对当前产品能力的保证，也不暗示合作或背书。
 - 中文字体由使用者环境提供，不随本仓库分发。
